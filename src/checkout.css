@@ -1,0 +1,27 @@
+.checkout__banner {
+  width: 100%;
+  height: 150px;
+  object-fit: contain;
+  margin-bottom: 20px;
+}
+.checkout_nothing_to_show {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.checkout {
+  display: flex;
+}
+@media (max-width: 990px) {
+  .checkout {
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .checkout__banner {
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
+    margin-bottom: 20px;
+  }
+}
